@@ -1,0 +1,107 @@
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.details {
+  margin-top: 24px;
+}
+
+.details h3 {
+  margin-top: 24px;
+}
+
+.details > button {
+  margin-top: 20px;
+}
+
+.discount-panel {
+  margin-top: 28px;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.discount-panel form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.discount-panel input {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.discount-panel button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.success {
+  color: #15803d;
+  font-weight: 500;
+}
+.price-panel {
+  margin-top: 24px;
+  padding: 20px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+}
+
+.price-panel h3 {
+  margin-top: 0;
+}
+
+.price-panel p {
+  margin: 10px 0;
+}
+
+.readers-panel {
+  margin-top: 24px;
+}
+
+.reader-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.reader-controls select {
+  min-width: 240px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: white;
+}
+
+.reader-controls button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.reader-result {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.reader-result h3 {
+  margin-top: 0;
+}
